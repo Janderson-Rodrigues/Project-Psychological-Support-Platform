@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #4a148c, #7e57c2);
+    background: linear-gradient(135deg, #4169E1, #1E90FF);
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
@@ -22,6 +22,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
 }
 
 .login-section {
@@ -141,6 +142,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(207, 207, 37);
 }
+
 footer {
     background: #ddd6e5;
     color: #0c0c0c;
