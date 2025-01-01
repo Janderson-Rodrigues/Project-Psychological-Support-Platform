@@ -22,8 +22,28 @@
 
     </header>
 
-    <h1>Cadastre-se e inicie sua jornada de bem estar mental.</h1>
+    <h1>Cadastre-se e inicie sua jornada de bem estar mental.</h1><br>
     <p>Nome da plataforma</p>
+
+    <div id="container-cadastro">
+      <h2>Criar Conta</h2>
+      <form action="/register" method="POST">
+        <label for="username">Nome do Usuário</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu nome"><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
+
+        <label for="senha">Digite Sua Senha</label>
+        <input type="password" id="password" name="password" placeholder="digite sua senha"><br>
+
+        <label for="senha">Confirme Sua Senha</label>
+        <input type="password" id="password" name="password" placeholder="confirme sua senha"><br>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+      <p class="footer-text">já tem uma conta</p><a href="login.html">Entrar</a>
+    </div>
     <footer>
     <p>&copy; Todos os direitos reservados a Equipes de Desenvolvedores Harley JSon</p>
     <p>Anildo da Silva Gomes • Anderson Oliveira de Sousa • Ivan Oliveira Magalhães • Janderson Carneiro Rodrigues</p>
