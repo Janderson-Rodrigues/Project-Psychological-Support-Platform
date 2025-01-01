@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar uma nova conta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+          <ul class="ul">
+              <li><img src="" alt="Logo" width="90" style="margin-right: 20px;"></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Cadastro</a></li>
+              <li><a href="">psicologos</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Usuário</a></li>
+          </ul>    
+        </nav>
+
+    </header>
+
+  <div class="container-cadastro">
+    <div class="logo">
+      <h1>PsicolConsult</h1>
+    </div>
+    <div class="form-container">
+      <h2>Criar uma conta</h2>
+      <p>É rápido e fácil.</p>
+      <form action="#">
+        <div class="input-group">
+          <input type="text" placeholder="Nome" required>
+          <input type="text" placeholder="Sobrenome" required>
+        </div>
+        <div class="input-group">
+          <label for="birth-date">Data de nascimento</label>
+          <div class="birth-date" id="birth-date">
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <!-- Adicione mais opções aqui -->
+            </select>
+            <select>
+              <option value="jan">Jan</option>
+              <option value="fev">Fev</option>
+              <!-- Adicione mais opções aqui -->
+            </select>
+            <select>
+              <option value="2025">2025</option>
+              <!-- Adicione mais opções aqui -->
+            </select>
+          </div>
+        </div>
+        <div class="input-group">
+          <label>Gênero</label>
+          <div class="gender-options">
+            <label><input type="radio" name="gender" value="Feminino"> Feminino</label>
+            <label><input type="radio" name="gender" value="Masculino"> Masculino</label>
+            <label><input type="radio" name="gender" value="Personalizado"> Personalizado</label>
+          </div>
+        </div>
+        <input type="email" placeholder="Celular ou email" required>
+        <input type="password" placeholder="Nova senha" required>
+        <button type="submit">Cadastre-se</button>
+      </form>
+      <p class="login-link">Já tem uma conta? <a href="#">Entrar</a></p>
+    </div>
+    </div>
+
+    <footer>
+    <p>&copy; Todos os direitos reservados a Equipes de Desenvolvedores Harley JSon</p>
+    <p>Anildo da Silva Gomes • Anderson Oliveira de Sousa • Ivan Oliveira Magalhães • Janderson Carneiro Rodrigues</p>
+    </footer>
+</body>
+</html>
