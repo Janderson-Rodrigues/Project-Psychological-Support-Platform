@@ -7,7 +7,65 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>pagina de psicologos disponiveis</h1>
+    <header class="header">
+      <div class="logo">
+        <img src="logo.png" alt="Psicologia Viva">
+        <span>Psicologia Viva</span>
+      </div>
+      <nav class="navigation">
+        <a href="#">Sou Psicólogo</a>
+        <a href="#">Blog</a>
+        <a href="#">Para sua Empresa</a>
+        <a href="#">Cadastre-se</a>
+        <a href="#" class="btn-entrar">Entrar</a>
+      </nav>
+    </header>
+  
+    <section class="search-section">
+      <div class="search-container">
+        <select name="tema" id="tema">
+          <option value="">Selecione um tema</option>
+          <option value="ansiedade">Ansiedade</option>
+          <option value="depressao">Depressão</option>
+        </select>
+        <button class="btn-procurar">Procurar</button>
+      </div>
+    </section>
+  
+    <section class="psychologists">
+      <h2>Psicólogos disponíveis para agendamento online</h2>
+      <div class="psychologist-card">
+        <div class="profile">
+          <img src="profile1.jpg" alt="Psicóloga Karina Silva">
+          <h3>Karina Silva Santana de...</h3>
+          <p>Psicóloga Clínica</p>
+          <p>27288 / CRP - 5ª Região</p>
+          <p>Rio de Janeiro - RJ</p>
+          <a href="#">Ver avaliações (99)</a>
+          <div class="session-info">
+            <span>Sessão: <strong>R$ 120,00</strong></span>
+            <span>Duração: <strong>40 minutos</strong></span>
+          </div>
+          <button class="btn-ver-perfil">Ver perfil completo</button>
+        </div>
+        <div class="schedule">
+          <h4>Selecione uma data</h4>
+          <div class="dates">
+            <button>Hoje</button>
+            <button>Amanhã</button>
+            <button>Seg</button>
+            <button>Ter</button>
+          </div>
+          <div class="times">
+            <button>18:10</button>
+            <button>18:50</button>
+            <button>19:30</button>
+            <button>20:10</button>
+          </div>
+          <button class="btn-agendar">Agendar consulta online</button>
+        </div>
+      </div>
+    </section>
     <footer>
         <p>&copy; Todos os direitos reservados a Equipes de Desenvolvedores Harley JSon</p>
         <p>Anildo da Silva Gomes • Anderson Oliveira de Sousa • Ivan Magalhães • Janderson Carneiro Rodrigues</p>
@@ -71,5 +129,6 @@
             </ul>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
